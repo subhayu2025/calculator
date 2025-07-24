@@ -11,9 +11,10 @@ h1 {
 }
 
 .container {
-    height: 500px;
+    height: 510px;
     width: 350px;
     border: 2px solid #fff;
+    border-radius: 12px;
     background-color: black;
 }
 
@@ -30,6 +31,11 @@ h1 {
     width: 72px;
     height: 68px;
     text-align: center;
+    transition: 0.3;
+}
+
+button:hover {
+    opacity: 0.75;
 }
 
 #btn1 {
@@ -58,7 +64,7 @@ h1 {
 
 .row input {
     font-size: 26px;
-    margin: 0;
+    margin: 2px;
     padding: 12px 0;
     border: 2px solid black;
     border-radius: 5px;
